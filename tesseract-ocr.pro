@@ -29,10 +29,13 @@ DEFINES -= UNICODE
 
 # Input
 build_pass:CONFIG(debug, debug|release) {
-    DESTDIR = ../$$PROJECT_NAME/debug
+    DESTDIR = ../tesseract-ocr_debug
 } else {
-    DESTDIR = ../$$PROJECT_NAME/release
+    DESTDIR = ../tesseract-ocr_release
 }
+
+OBJECTS_DIR = $$DESTDIR/obj
+MOC_DIR = $$DESTDIR/moc
 
 #_-_-_-_-_-_LINKING_-_-_-_-_-_
 win32:LIBS += $$LEPTONICA_DIR/bin/liblept-3.dll
