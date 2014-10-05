@@ -16,7 +16,7 @@ PROJECT_NAME = tesseract
 TARGET = $$PROJECT_NAME
 
 #_-_-_-_-_-_SOME DIRECTORIES_-_-_-_-_-_
-OCR_DIR = D:/prog/traitement_image/tuto
+OCR_DIR = D:/prog/ocr
 LEPTONICA_DIR = $$OCR_DIR/leptonica-1.69
 MINGW_LIB_DIR = D:/Programs/Qt/Qt5.1.0/Tools/mingw48_32/i686-w64-mingw32/lib
 #-_-_-_-_-_-
